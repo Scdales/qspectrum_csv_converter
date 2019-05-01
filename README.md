@@ -3,7 +3,11 @@ Spectrum plot converter for Shure Wireless Workbench and Sennheiser Wireless Sys
 
 `python3 ./converter.py raw.csv`
 
-## Qspectrumanalyzer plot save settings
+## Requirements
+[Python >= 3.7.3](https://www.python.org/downloads/)
+[Qspectrumanalyzer](https://github.com/xmikos/qspectrumanalyzer)
+
+## Qspectrumanalyzer plot export settings
 - separator: comma
 - precision: 10
 - columnMode: (x,y) per plot
